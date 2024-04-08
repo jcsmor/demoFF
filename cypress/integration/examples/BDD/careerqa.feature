@@ -1,19 +1,19 @@
 Feature: End to end QA apply career validation
 
     # @Regression
-    # Scenario: validate we have a QA job listed
-    #     Given I open fullfabric careers Page
-    #     Then I validate we have "Senior Quality Assurance Engineer" listed
+    Scenario: validate we have a QA job listed
+        Given I open fullfabric careers Page
+        Then I validate we have "Senior Quality Assurance Engineer" listed
 
-    # Scenario: validate QA job page content
-    #     Given I open qa job Page
-    #     Then I validate the qa page main headers are present
-    #         | header                            |
-    #         | Senior Quality Assurance Engineer |
-    #         | Overview                          |
-    #         | Key Responsibilities              |
-    #         | Qualifications                    |
-    #         | What We Offer                     |
+    Scenario: validate QA job page content
+        Given I open qa job Page
+        Then I validate the qa page main headers are present
+            | header                            |
+            | Senior Quality Assurance Engineer |
+            | Overview                          |
+            | Key Responsibilities              |
+            | Qualifications                    |
+            | What We Offer                     |
 
     Scenario: validate QA job form fields
         Given I open qa job Page
