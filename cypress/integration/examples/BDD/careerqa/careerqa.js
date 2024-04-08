@@ -64,20 +64,13 @@ Then('I validate form overlay is visible', () => {
 })
 
 Then('I fill form with correct values', function () {
-
-    beforeEach(() => {
-        cy.fixture('example').then(function (data) {
-            this.data = data
-        })
-    })
-
     jobPage.getRadioBtn().eq(0).check().should('be.checked').and('have.value', 'true')
     jobPage.getCityBased().type(this.data.formCity)
-    jobPage.getFirstName().type("John")
-    jobPage.getLastName().type("Doe")
-    jobPage.getEmail().type("John@example.com")
-    jobPage.getPhone().type("912345678")
-    jobPage.getCoverLetter().type("Testing cover letter")
+    jobPage.getFirstName().type(this.data.firstName)
+    jobPage.getLastName().type(this.data.lastName)
+    jobPage.getEmail().type(this.data.email)
+    jobPage.getPhone().type(this.data.phone)
+    jobPage.getCoverLetter().type(this.data.coverLetter)
     jobPage.getConsent1().check().should('be.checked')
     jobPage.getConsent2().check().should('be.checked')
 })
