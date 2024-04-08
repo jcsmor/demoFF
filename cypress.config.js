@@ -15,6 +15,7 @@ module.exports = defineConfig({
   reporter: 'mochawesome',
   env: {
     url: "https://www.fullfabric.com",
+    jobsPage: "https://fullfabricspoonsixlimited.teamtailor.com",
     jobTitleQA: "Senior Quality Assurance Engineer",
   },
   retries: {
