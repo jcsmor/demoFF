@@ -1,10 +1,8 @@
 class CareersPage {
 
-    getEditBox() {
-        return cy.get('input[name="name"]:nth-child(2)')
+    getJobTitles() {
+        return cy.get('a.teamtailor-jobs__job-title')
     }
-
-    //Senior Quality Assurance Engineer
 }
 
 export default CareersPage;

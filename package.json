@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cucumberReports/results.json"
+    }
+  },
   "author": "Joao Moreira",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.2",
-    "@badeball/cypress-cucumber-preprocessor": "latest"
+    "cypress": "^13.6.6",
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3"
   }
 }
