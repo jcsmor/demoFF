@@ -1,7 +1,5 @@
 # demoFF
 
-To Run tests
-
 Requirements: Have a machine with Node.js installed or Install Node.js locally
 
 1 - Download from code repo https://github.com/jcsmor/demoFF.git
