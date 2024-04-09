@@ -24,10 +24,10 @@ Feature: End to end QA apply career validation
 
 #                           Bonus section                          #
 
-#1 - We can validate the API request is made after user presses Submit applications
-#2 - With access to Data base we can call the DB and confirm is the last submited values are there and with correct data
+#1 - We can validate the API request is made after user presses Submit applications and confirm response values ex: status code 200.
+#2 - With access to the DB we can call the DB and confirm the last submitted values.
 
-#3 - Bellow thre is also other tests suggestions for this page
+#3 - Bellow there are also other tests suggestions for this page
 
 #     Scenario: validate QA job page down arrow
 #     Scenario: validate QA job page top navigation
