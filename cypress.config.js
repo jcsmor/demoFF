@@ -16,11 +16,10 @@ module.exports = defineConfig({
   env: {
     url: "https://www.fullfabric.com",
     jobsPage: "https://fullfabricspoonsixlimited.teamtailor.com",
-    jobTitleQA: "Senior Quality Assurance Engineer",
+    jobTitleQA: "Senior Quality Assurance Engineer"
   },
   retries: {
-    runMode: 1,
-
+    runMode: 1
   },
   e2e: {
     setupNodeEvents,
