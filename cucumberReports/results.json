@@ -4,10 +4,10 @@
     "elements": [
       {
         "description": "",
-        "id": "end-to-end-qa-apply-career-validation;validate-we-have-a-qa-job-listed",
+        "id": "end-to-end-qa-apply-career-validation;validate-career-page-job-offer",
         "keyword": "Scenario",
         "line": 4,
-        "name": "validate we have a QA job listed",
+        "name": "validate career page job offer",
         "steps": [
           {
             "arguments": [],
@@ -19,172 +19,29 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5120000000
+              "duration": 2378000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I validate we have \"Senior Quality Assurance Engineer\" listed",
+            "name": "I validate we have \"Escalation Manager\" listed",
             "match": {
               "location": "not available:0"
             },
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 36000000
             }
           }
         ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "end-to-end-qa-apply-career-validation;validate-qa-job-page-content",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "validate QA job page content",
-        "steps": [
+        "tags": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 9,
-            "name": "I open qa job Page",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1387000000
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "header"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Senior Quality Assurance Engineer"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Overview"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Key Responsibilities"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Qualifications"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "What We Offer"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "I validate the qa page main headers are present",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 136000000
-            }
+            "name": "@Regression",
+            "line": 3
           }
         ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "end-to-end-qa-apply-career-validation;validate-qa-job-form-fields",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "validate QA job form fields",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "I open qa job Page",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 385000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "I select \"Apply for this job\" button",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 162000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "I validate form overlay is visible",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 69000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "I fill form with correct values",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2110000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "Submit application button is enabled",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6000000
-            }
-          }
-        ],
-        "tags": [],
         "type": "scenario"
       }
     ],
@@ -193,6 +50,6 @@
     "keyword": "Feature",
     "name": "End to end QA apply career validation",
     "tags": [],
-    "uri": "cypress\\integration\\examples\\BDD\\careerqa.feature"
+    "uri": "cypress/integration/BDD/careerqa.feature"
   }
 ]

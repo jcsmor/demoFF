@@ -1,7 +1,7 @@
 Feature: End to end QA apply career validation
 
     @Regression
-    Scenario: validate we have a QA job listed
+    Scenario: validate career page job offer
         Given I open fullfabric careers Page
         Then I validate we have "Escalation Manager" listed
 
