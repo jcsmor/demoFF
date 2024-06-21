@@ -1,8 +1,8 @@
 // Validate we have a QA job listed
 /// <reference types="Cypress" />
-import CareersPage from '../../../../support/pageObjects/CareersPage'
+import CareersPage from '../../../support/pageObjects/CareersPage'
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import JobPage from '../../../../support/pageObjects/JobPage';
+import JobPage from '../../../support/pageObjects/JobPage';
 
 const careerPage = new CareersPage()
 const jobPage = new JobPage()
