@@ -5,6 +5,7 @@ Feature: End to end QA apply career validation
         Given I open fullfabric careers Page
         Then I validate we have "Escalation Manager" listed
 
+
     # Scenario: validate QA job page content
     #     Given I open qa job Page
     #     Then I validate the qa page main headers are present
