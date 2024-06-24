@@ -11,8 +11,8 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - checkout
-            - sem-version node 22
+            - checkout 
+            - sem-version node 20
             - npm install
             - cache store
             - npm run build --if-present
